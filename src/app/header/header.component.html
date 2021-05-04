@@ -5,10 +5,10 @@
       <h1>Friends & Family Cookbook Creator</h1>
     </a>
     <div class="container-fluid">
-      <nav class="navbar navbar-light navbar-expand-sm">
-
-        <button class="navbar-toggler"
+      <nav class="navbar navbar-light navbar-expand-lg">
+        <button class="navbar-toggler mb-2"
                 type="button"
+                (click)="toggleNavbar()"
                 data-toggle="collapse"
                 data-target="#navbarNav"
                 aria-controls="navbarNav"
@@ -17,6 +17,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center"
+             [ngClass]="{ 'show': navbarOpen }"
              id="navbarNav">
           <ul class="nav navbar-nav">
             <li class="nav-item">
@@ -29,6 +30,10 @@
             </li>
             <li class="nav-item">
               <a class="nav-link text-light"
+                 href="#">Search Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light"
                  href="#">Support</a>
             </li>
             <li class="nav-item">
@@ -37,7 +42,6 @@
             </li>
           </ul>
         </div>
-
       </nav>
     </div>
   </div>

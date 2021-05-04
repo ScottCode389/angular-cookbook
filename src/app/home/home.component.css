@@ -1,0 +1,79 @@
+
+
+.viewRecipes {
+  background-image: url("/assets/img/recipe_cropped2.jpg");
+  background-color: #9c8cd4; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+.newRecipes {
+  background-image: url("/assets/img/friends.jpg");
+  background-color: #9c8cd4;
+  height: 500px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.gettingStarted {
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+.mobile {
+  height: 400px;
+  background-color: white;
+  font-size: 1.5rem;
+}
+
+.alignImg {
+  text-align: center;
+}
+
+img {
+  width: auto;
+  height: 250px;
+}
+
+h2 {
+  font-family: lato, sans-serif;
+  text-align: center;
+  padding: 15px;
+}
+
+.title {
+  background-color: rgba(156, 140, 212, 0.8);
+  margin-bottom: 0;
+}
+
+.cookin {
+  margin-top: 30px;
+
+}
+
+.inner {
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 1.5rem;
+  height: 300px;
+  border-width: 3px !important;
+  /* border-color: #73874C !important; */
+  border-color: #594c87 !important;
+  color: #594c87 !important;
+}
+
+fa-icon {
+  font-size: 2rem;
+}
+
+
+
+
+
+
+
+
